@@ -118,6 +118,16 @@
   text-decoration: none;
 }
 
+.activeLink{
+  color: green;
+  text-decoration: underline;
+}
+
+.link:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
 .icons{
   margin-top: 10%;
   margin-bottom: 10%;

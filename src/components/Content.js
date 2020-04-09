@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from './Resume';
 
 export default class Content extends React.Component
 {
@@ -24,6 +25,11 @@ export default class Content extends React.Component
                         <h1>Projects</h1>
                     </div>
                 );
+            case 3:
+                return(
+                    <Resume
+                    />
+                )
             default:
                 return (<div></div>);
         }

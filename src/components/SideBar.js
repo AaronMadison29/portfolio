@@ -1,5 +1,6 @@
 import React from 'react';
 import Headshot from '../img/Headshot.png';
+import Link from './Link'
 
 export default class SideBar extends React.Component
 {
@@ -18,21 +19,30 @@ export default class SideBar extends React.Component
                     </div>
                 </div>
                 <div className="navlinks">
-                    <div className="text-center navigation">
-                        <button className="link" onClick={() => this.props.navigation(0)}>
-                            Introduction
-                    </button>
-                    </div>
-                    <div className="text-center navigation">
-                        <button className="link" onClick={() => this.props.navigation(1)}>
-                            About
-                    </button>
-                    </div>
-                    <div className="text-center navigation">
-                        <button className="link" onClick={() => this.props.navigation(2)}>
-                            Projects
-                    </button>
-                    </div>
+                    <Link
+                        navigation={this.props.navigation}
+                        text={"Introduction"}
+                        pageNumber={0}
+                        currentPage={this.props.currentPage}
+                    />
+                    <Link
+                        navigation={this.props.navigation}
+                        text={"About Me"}
+                        pageNumber={1}
+                        currentPage={this.props.currentPage}
+                    />
+                    <Link
+                        navigation={this.props.navigation}
+                        text={"Projects"}
+                        pageNumber={2}
+                        currentPage={this.props.currentPage}
+                    />
+                    <Link
+                        navigation={this.props.navigation}
+                        text={"Resume"}
+                        pageNumber={3}
+                        currentPage={this.props.currentPage}
+                    />
                 </div>
                 <div className="icons">
                     <div className="text-center navigation">
