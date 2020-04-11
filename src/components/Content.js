@@ -17,12 +17,14 @@ export default class Content extends React.Component
                 return (
                     <div className="content">
                         <h1>About Me</h1>
+                        <h2>Work in progress! Check out my Resume using the link on the left, and come back later to see how it looks!
                     </div>
                 );
             case 2:
                 return (
                     <div className="content">
                         <h1>Projects</h1>
+                        <h2>Work in progress! Check out my Resume using the link on the left, and come back later to see how it looks!
                     </div>
                 );
             case 3:
