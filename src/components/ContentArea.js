@@ -8,7 +8,7 @@ export default class ContentArea extends React.Component
             <div className="content-container">
                 <Content
                     currentPage = {this.props.currentPage}
-                    navigation = {() => this.props.navigation}
+                    navigation = {this.props.navigation}
                 />
             </div>
         )

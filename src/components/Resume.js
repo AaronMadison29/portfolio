@@ -4,11 +4,10 @@ export default class Resume extends React.Component
 {
     render(){
         return(
-            <div className="content">
-                <object data='https://drive.google.com/open?id=1gaYZ94oHrvS-CpRgLniUo4C7ubzEWbtE'
-                    type='application/pdf'
-                    width='100%'
-                    height='100%'></object>
+            <div className="text-center navigation">
+                <a className={"link"} href="https://drive.google.com/file/d/1gaYZ94oHrvS-CpRgLniUo4C7ubzEWbtE/view?usp=sharing" target="_blank">
+                    Resume
+                </a>
             </div>
         )
     }

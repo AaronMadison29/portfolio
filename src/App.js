@@ -14,9 +14,9 @@ function App() {
   return (
     <div className="row background">
       <SideBar
-        currentPage={currentPage}
-        navigation={navigation}
-      />
+          currentPage={currentPage}
+          navigation={navigation}
+        />
       <ContentArea
       currentPage={currentPage}
       navigation={navigation}
