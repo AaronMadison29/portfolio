@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.374f3f2c.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c1f5f4b3.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c1f5f4b3.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.0c7ed2e7.chunk.css",
+    "main.js": "/Portfolio/static/js/main.807bb1e1.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.807bb1e1.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.2445a1df.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.2445a1df.js.map",
     "static/css/2.610994de.chunk.css": "/Portfolio/static/css/2.610994de.chunk.css",
-    "static/js/2.6a4f9d52.chunk.js": "/Portfolio/static/js/2.6a4f9d52.chunk.js",
-    "static/js/2.6a4f9d52.chunk.js.map": "/Portfolio/static/js/2.6a4f9d52.chunk.js.map",
+    "static/js/2.fb3b2cf9.chunk.js": "/Portfolio/static/js/2.fb3b2cf9.chunk.js",
+    "static/js/2.fb3b2cf9.chunk.js.map": "/Portfolio/static/js/2.fb3b2cf9.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.ab7a1e42be7befca7e077839124709ab.js": "/Portfolio/precache-manifest.ab7a1e42be7befca7e077839124709ab.js",
+    "precache-manifest.8760a2e2b61f1dd0bf5152eb54e6559f.js": "/Portfolio/precache-manifest.8760a2e2b61f1dd0bf5152eb54e6559f.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.610994de.chunk.css.map": "/Portfolio/static/css/2.610994de.chunk.css.map",
-    "static/css/main.374f3f2c.chunk.css.map": "/Portfolio/static/css/main.374f3f2c.chunk.css.map",
-    "static/js/2.6a4f9d52.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.6a4f9d52.chunk.js.LICENSE.txt",
+    "static/css/main.0c7ed2e7.chunk.css.map": "/Portfolio/static/css/main.0c7ed2e7.chunk.css.map",
+    "static/js/2.fb3b2cf9.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fb3b2cf9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Portfolio/static/media/Background.c072d63d.gif",
     "static/media/Headshot.png": "/Portfolio/static/media/Headshot.26116993.png",
+    "static/media/Project.gif": "/Portfolio/static/media/Project.edf28060.gif",
+    "static/media/RouteWay.gif": "/Portfolio/static/media/RouteWay.64e7b693.gif",
+    "static/media/Thrive.gif": "/Portfolio/static/media/Thrive.a8d7b3ba.gif",
     "static/media/font-awesome.min.css": "/Portfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.2445a1df.js",
     "static/css/2.610994de.chunk.css",
-    "static/js/2.6a4f9d52.chunk.js",
-    "static/css/main.374f3f2c.chunk.css",
-    "static/js/main.c1f5f4b3.chunk.js"
+    "static/js/2.fb3b2cf9.chunk.js",
+    "static/css/main.0c7ed2e7.chunk.css",
+    "static/js/main.807bb1e1.chunk.js"
   ]
 }
