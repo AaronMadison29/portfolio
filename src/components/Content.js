@@ -52,7 +52,7 @@ export default class Content extends React.Component
                 return (
                     <div className="content">
                         <div className="page-title">
-                            <h1 className="green scale-font">Projects</h1>
+                            <h1 className="green">Projects</h1>
                         </div>
                         <div className="project-area">
                             <div className="row projects-container-row">

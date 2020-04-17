@@ -248,3 +248,8 @@
 .scale-font{
   font-size: 100%;
 }
+
+.margin-2{
+  margin-left: 2%;
+  margin-right: 2%;
+}

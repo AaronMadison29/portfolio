@@ -10,8 +10,8 @@ export default class Project extends React.Component
                     <h2 className="project-title">{this.props.projectName}</h2>
                 </div>
                 <div className="project-description text-center">
-                    <p className="scale-font">{this.props.projectName}</p>
-                    <p className="scale-font">{this.props.description}</p>
+                    <h2 >{this.props.projectName}</h2>
+                    <p className="scale-font margin-2">{this.props.description}</p>
                     <div className="text-center description-link">
                         <button className="description-button scale-font" href={this.props.sourceURL}><i class="fa fa-code" />Check out the Source Code<i className="fa fa-code" /></button>
                     </div>
