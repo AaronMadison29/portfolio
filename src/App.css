@@ -197,14 +197,14 @@
   right: 0;
   background: black;
   color: #fff;
-  visibility: hidden;
+  display: none;
   opacity: 0;
 
   transition: opacity .2s, visibility .2s;
 }
 
 .project-container:hover .project-description{
-  visibility: visible;
+  display: inline;
   opacity: 85%;
 }
 

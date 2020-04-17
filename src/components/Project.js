@@ -13,7 +13,10 @@ export default class Project extends React.Component
                     <h2 >{this.props.projectName}</h2>
                     <p className="scale-font margin-2">{this.props.description}</p>
                     <div className="text-center description-link">
-                        <button className="description-button scale-font" href={this.props.sourceURL}><i class="fa fa-code" />Check out the Source Code<i className="fa fa-code" /></button>
+                        <form action={this.props.sourceURL} method="get" target="_blank">
+                        <button className="description-button scale-font"><i className="fa fa-code" />Check out the Source Code<i className="fa fa-code" /></button>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
