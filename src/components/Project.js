@@ -1,25 +1,43 @@
-import React from 'react';
+import React, { useRef, useState , useEffect}from 'react';
+import ProjectDisplay from './ProjectDisplay';
+import ProjectDescription from './ProjectDescription';
 
-export default class Project extends React.Component
+function useHover()
 {
-    render(){
-        return(
-            <div className="project-container border">
-                <div className="project-display">
-                    <img src={this.props.gifPath} className="project-gif" />
-                    <h2 className="project-title">{this.props.projectName}</h2>
-                </div>
-                <div className="project-description text-center">
-                    <h2 >{this.props.projectName}</h2>
-                    <p className="scale-font margin-2">{this.props.description}</p>
-                    <div className="text-center description-link">
-                        <form action={this.props.sourceURL} method="get" target="_blank">
-                        <button className="description-button scale-font"><i className="fa fa-code" />Check out the Source Code<i className="fa fa-code" /></button>
-                        </form>
-                        
-                    </div>
-                </div>
-            </div>
-        )
-    }
+    const ref = useRef();
+    const [hovered, setHovered] = useState(false)
+
+    const enter = () => setHovered(true)
+    const exit = () => setHovered(false)
+
+    useEffect(() => {
+        ref.current.addEventListener('mouseenter', enter)
+        ref.current.addEventListener('mouseleave', exit)
+        return () => {
+            ref.current.removeEventListener('mouseenter', enter)
+            ref.current.removeEventListener('mouseleave', exit)
+        }
+    }, [ref])
+
+    return [ref, hovered]
+}
+
+export default function Project(props)
+{
+    const [ref, hovered] = useHover()
+
+    return(
+        <div className="project-container border" ref={ref}>
+            <ProjectDisplay
+                gifPath = {props.gifPath}
+                projectName = {props.projectName}
+            />
+            {hovered && <ProjectDescription
+                projectName={props.projectName}
+                description={props.description}
+                sourceURL={props.sourceURL}
+            />
+            }
+        </div>
+    )
 }
