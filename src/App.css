@@ -197,7 +197,7 @@
   right: 0;
   background: black;
   color: #fff;
-  opacity: 85%;
+  opacity: .85;
 
   transition: opacity .2s, visibility .2s;
 }
@@ -233,7 +233,6 @@
 }
 
 .description-button{
-  opacity: 100% !important;
   border-radius: 10px;
   background-color: black;
   color: white;
