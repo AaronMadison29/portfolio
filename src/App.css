@@ -87,6 +87,13 @@
   text-align: center;
 }
 
+.full-center{
+  height: 100%;
+  width: 100%;
+  bottom: 50;
+  right: 50;
+}
+
 .info{
   font-size: 100%;
 }
@@ -140,7 +147,7 @@
   margin-bottom: 10%;
 }
 
-.thanks{
+.bottom-center{
   position: absolute;
   bottom: 0;
   width: inherit;
@@ -161,6 +168,9 @@
 }
 
 .about-me{
+  position: relative;
+  height: 100%;
+  width: 96%;
   margin-left: 2%;
   margin-right: 2%;
 }
@@ -245,4 +255,25 @@
 .margin-2{
   margin-left: 2%;
   margin-right: 2%;
+}
+
+.project-wrapper{
+  height: 100%;
+  width: 100%;
+}
+
+.skills-box{
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.myskills-parent{
+  display: flex;
+  flex-direction: column;
+}
+
+.myskills-child{
+  margin: auto;
 }
