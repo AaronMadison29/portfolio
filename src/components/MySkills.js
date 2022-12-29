@@ -4,7 +4,7 @@ export default class Description extends React.Component
 {
     render(){
         return(
-            <div className="row skills-box">
+            <div className="row skills-box" style="height: 50%">
                 <div className="green scale-font col-sm-6 center myskills-parent">
                     <h1 className="myskills-child">My Skills</h1>
                 </div>

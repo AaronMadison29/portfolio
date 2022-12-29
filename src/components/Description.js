@@ -4,7 +4,7 @@ export default class Description extends React.Component
 {
     render(){
         return(
-            <div>
+            <div style="height: 50%">
                 <div className="green scale-font">
                     <h1>Hi, I'm Aaron Madison</h1>
                 </div>
